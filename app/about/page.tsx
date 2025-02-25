@@ -15,12 +15,12 @@ export default function About() {
                   This page has some errors
                 </p>
                 <p className="mt-6 text-gray-600 text-lg leading-8">
-                  Not only is this page throwing a 404 error we need to resolve
-                  but there's some code erros on this page as well.
+                  Not only is this page throwing a 404 error, but we also need
+                  to resolve some code errors on this page as well.
                 </p>
                 <dl className="space-y-8 mt-10 lg:max-w-none max-w-xl text-gray-600 text-base leading-7">
                   <div className="relative pl-9">
-                    <dt className="inline font-semibold text-gray-900">
+                    <dt className="font-semibold text-gray-900">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -40,7 +40,7 @@ export default function About() {
                     </dd>
                   </div>
                   <div className="relative pl-9">
-                    <dt className="inline font-semibold text-gray-900">
+                    <dt className="font-semibold text-gray-900">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -62,7 +62,7 @@ export default function About() {
                     </dd>
                   </div>
                   <div className="relative pl-9">
-                    <dt className="inline font-semibold text-gray-900">
+                    <dt className="font-semibold text-gray-900">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -86,19 +86,20 @@ export default function About() {
                   </div>
                 </dl>
               </div>
-              <div className="mt-3 sm:mt-0 sm:ml-3">
+              <div className="mt-10">
                 <a
                   href="/thank-you"
                   className="flex justify-center items-center bg-indigo-100 hover:bg-indigo-200 px-8 md:px-10 py-3 md:py-4 border border-transparent rounded-md w-full font-medium text-gray-800 text-base md:text-lg"
                 >
-                  Thank You
+                  Thank you
                 </a>
               </div>
             </div>
             <Image
               src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw4fHxjb21wdXRlcnxlbnwwfDB8fHwxNjkxODE2NjY3fDA&ixlib=rb-4.0.3&q=80&w=1080"
-              className="shadow-xl md:-ml-4 lg:-ml-0 rounded-xl ring-1 ring-gray-400/10 w-[48rem] sm:w-[57rem] max-w-none"
+              className="shadow-xl mt-8 md:-ml-4 lg:-ml-0 rounded-xl ring-1 ring-gray-400/10 w-[48rem] sm:w-[57rem] max-w-none"
               alt="Picture"
+              priority
               width={2432}
               height={1442}
             />
