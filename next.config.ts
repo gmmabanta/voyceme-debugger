@@ -7,11 +7,9 @@ const nextConfig: NextConfig = {
           protocol: 'https',
           hostname: 'images.unsplash.com',
           port: '',
-          pathname: '/account123/**',
-          search: '',
         },
       ],
     },
-  }
+  };
 
 export default nextConfig;
